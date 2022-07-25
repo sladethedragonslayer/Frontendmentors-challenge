@@ -122,3 +122,120 @@ footer p a {
     color: var(--secondary-color);
     text-decoration: none;
 }
+
+/* --------------------------------------------------------------------------------------
+
+                                        Responsive design
+
+-------------------------------------------------------------------------------------- */
+
+/* --------------------------------------- 0px to 640px --------------------------------------- */
+
+@media all and (max-width: 640px) {
+    
+    .main-container {
+        padding: 40px 30px 30px;
+    }
+    
+    .header .logo img {
+        max-width: 150px;
+    }
+
+    .content {
+        flex-direction: column;
+    }
+
+    .content .mockup-container {
+        width: 100%;
+        max-width: 650px;
+    }
+    
+    .content .mockup-container img {
+        width: 100%;
+    }
+    
+    .description {
+        width: 100%;
+        max-width: 600px;
+        margin-left: 0;
+    }
+    
+    .description h1 {
+        max-width: 100%;
+        font-size: 25px;
+        text-align: center;
+    }
+    
+    .description p {
+        max-width: 100%;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .description .btn-container {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .description .btn-container button {
+        width: 200px;
+        margin-bottom: 20px;
+        padding: 10px 35px;
+    }
+    
+    .description .btn-container button a {
+        font-size: 13px;
+    }
+
+    .description .social-icons {
+        max-width: 100%;
+    }
+    
+    .description .social-icons ul {
+        justify-content: center;
+    }
+
+    footer {
+        justify-content: center;
+    }
+}
+
+/* --------------------------------------- 641px to 1050px --------------------------------------- */
+
+@media all and (min-width: 641px) and (max-width: 1050px) {
+    
+    .main-container {
+        padding: 40px 50px 0;
+    }
+    
+    .header .logo img {
+        max-width: 250px;
+    }
+    
+    .content .mockup-container img {
+        width: 370px;
+    }
+    
+    .description {
+        margin-left: 70px;
+    }
+    
+    .description h1 {
+        font-size: 25px;
+    }
+    
+    .description p {
+        font-size: 17px;
+    }
+    
+    .description .btn-container button {
+        width: 160px;
+        margin-bottom: 50px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .description .social-icons {
+        margin-top: 50px;
+    }
+}
