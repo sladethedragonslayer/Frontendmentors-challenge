@@ -11,7 +11,7 @@ that you're going to use across the entire website
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 /* ----------------------------
-Breakpoints for responsive design
+Breakpoints for responsive design (according to Frontend Mentor challenge)
 
 Mobile: 375px
 Desktop: 1440px
@@ -33,4 +33,13 @@ body {
     background-size: cover;
     background-color: var(--primary-color);
     min-height: 100vh;
+}
+
+/* The following media query only changes the app's background image on mobile */
+
+@media all and (max-width: 640px) {
+
+    body {
+        background-image: url('../assets/images/bg-mobile.svg');
+    }
 }
