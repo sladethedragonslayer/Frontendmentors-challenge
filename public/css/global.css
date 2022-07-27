@@ -1,0 +1,45 @@
+/* --------------------------------
+
+This file includes typographies, reusable variables and general rules
+that you're going to use across the entire website
+
+-------------------------------- */
+
+/* Typography for headings */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+/* Typography for body */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+/* ----------------------------
+Breakpoints for responsive design (according to Frontend Mentor challenge)
+
+Mobile: 375px
+Desktop: 1440px
+---------------------------- */
+
+/* Reusable variables */
+:root {
+    --primary-color: hsl(257, 40%, 49%);
+    --secondary-color: hsl(300, 69%, 71%);
+    --poppins: 'Poppins', sans-serif;
+    --open-sans: 'Open Sans', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url('../assets/images/bg-desktop.svg');
+    background-size: cover;
+    background-color: var(--primary-color);
+    min-height: 100vh;
+}
+
+/* The following media query only changes the app's background image on mobile */
+
+@media all and (max-width: 640px) {
+
+    body {
+        background-image: url('../assets/images/bg-mobile.svg');
+    }
+}
