@@ -1,2 +1,1 @@
-My first repo.
-lorem ipsum.
+Landing page from Frontend Mentor
