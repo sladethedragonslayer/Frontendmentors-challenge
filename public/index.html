@@ -1,53 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Include favicon -->
-    <link rel="icon" type="image/x-icon" href="assets/images/favicon-32x32.png">
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="assets/images/favicon-32x32.png"
+    />
     <title>Huddle</title>
     <!-- Include global.css -->
-    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/global.css" />
     <!-- Include index.css -->
-    <link rel="stylesheet" href="css/index.css">
-</head>
-<body>
-    <div class="main-container">
-        <!-- Header -->
-        <header class="header">
-            <div class="logo"> 
-                <img src="assets/images/logo.svg" alt="Huddle">
-            </div>
-        </header>
+    <link rel="stylesheet" href="css/index.css" />
+    <script src="js/index.js" defer></script>
+  </head>
+  <body>
+    <div class="main-container" id="main-container">
+      <!-- Header -->
+      <header class="header">
+        <div class="logo">
+          <img src="assets/images/logo.svg" alt="Huddle" />
+        </div>
+      </header>
 
-        <!-- Content -->
-        <section class="content">
-            <div class="mockup-container">
-                <img src="assets/images/illustration-mockups.svg" alt="Mockup">
-            </div>
-            <div class="description">
-                <h1>Build The Community Your Fans Will Love</h1>
-                <p>Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion.</p>
-                <div class="btn-container">
-                    <button type="button">
-                        <a href="#">Register</a>
-                    </button>
-                </div>
-                <nav class="social-icons">
-                    <ul>
-                        <li><a href="#"><img src="assets/images/facebook.svg" alt="Facebook"></a></li>
-                        <li><a href="#"><img src="assets/images/twitter.svg" alt="Twitter"></a></li>
-                        <li><a href="#"><img src="assets/images/instagram.svg" alt="Instagram"></a></li>
-                    </ul>
-                </nav>
-            </div>
-        </section>
+      <!-- Content -->
+      <section class="content">
+        <div class="mockup-container">
+          <img src="assets/images/illustration-mockups.svg" alt="Mockup" />
+        </div>
+        <div class="description">
+          <div class="container">
+            <h1>Build The Community Your Fans Will Love</h1>
+            <p>
+              Huddle re-imagines the way we build communities. You have a voice,
+              but so does your audience. Create connections with your users as
+              you engage in genuine discussion.
+            </p>
+            <button type="button" id="register">
+              <a href="#">Register</a>
+            </button>
+          </div>
+          <div class="hidden" id="pop-up">
+              <h2>Glad to have you on board! You will be redirected to the register page</h2> 
+              <div class="login-div"><p class="login-txt">Already registered?? <span><a href="#">Login here.</a></span></p></div>
+          </div>
 
-        <!-- Footer -->
-        <footer>
-            <p>Challenge by <a target="new" href="https://www.frontendmentor.io">Frontend Mentor</a>. Coded by <a target="new" href="https://github.com/OsiusKara">Osius Kara</a>.</p>
-        </footer>
+          <nav class="social-icons">
+            <ul>
+              <li>
+                <a href="#"
+                  ><img src="assets/images/facebook.svg" alt="Facebook"
+                /></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><img src="assets/images/twitter.svg" alt="Twitter"
+                /></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><img src="assets/images/instagram.svg" alt="Instagram"
+                /></a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer>
+        <p>
+          Challenge by
+          <a target="new" href="https://www.frontendmentor.io"
+            >Frontend Mentor</a
+          >. Coded by
+          <a target="new" href="https://github.com/OsiusKara">Osius Kara</a>.
+        </p>
+      </footer>
     </div>
-</body>
+  </body>
 </html>
