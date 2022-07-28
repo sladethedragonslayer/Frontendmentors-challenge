@@ -39,9 +39,9 @@ Users should be able to:
 
 ## Author
 
-- Website - [Add your name here](https://github.com/sladethedragonslayer)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/sladethedragonslayer)
-- Twitter - [@yourusername](https://www.twitter.com/d3scuss)
+- Website - (https://github.com/sladethedragonslayer)
+- Frontend Mentor - (https://www.frontendmentor.io/profile/sladethedragonslayer)
+- Twitter - (https://www.twitter.com/d3scuss)
 
 ## Acknowledgments
 - https://github.com/pabloyamakata
